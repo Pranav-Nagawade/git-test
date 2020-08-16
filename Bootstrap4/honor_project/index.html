@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles1.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <!-- endbuild -->
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand " href="#"><img src="img/bothashlogo11-removebg-preview (1).png" height="mr-auto"
+                    width="55"></a>
+            <a class="navbar-brand " href="#"><img src="img/bothashlogo12-removebg-preview.png" height="30"
+                    width="mr-auto"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about_us"> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#our_services">Services</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">
+                            Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">
+                            Contact Us</a></li>
+                </ul>
+                <span class="navbar-text" id="log">
+
+                    <span class="fa fa-sign-in"></span> Login
+
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1"
+                                    id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-content ">
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12 col-sm-5">
+                        <div class="card" id="p_card_class">
+                            <div class="card-body">
+                                <p class="text-center" id="p_card"><br>
+                                    <span class="align-middle">We Provide</span><br>
+                                    <span>Solution</span><br>
+                                    <span>for your business!</span>
+                                </p><br>
+                                <button class="card-link"
+                                    onClick="document.getElementById('about_us').scrollIntoView();">Get Started</button>
+                                <button class="card-link"
+                                    onClick="document.getElementById('our_services').scrollIntoView();">Our
+                                    Services</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-7" style="padding-left: 45px;">
+                        <img src="./img/intro-img 1.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div style="padding-bottom: 20px;">
+            <br>
+        </div>
+
+        <div class="container" id="about_us">
+            <div class="row row-header">
+                <div class="col-12 col-sm-12">
+                    <h1 class="text-center">About Us</h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna . <br>
+                        Lorem ipsum dolor sit amet,
+                        eiusmod tempor incididunt ut labore et dolore magna .</p>
+                </div>
+                <div class="col-12 col-sm-6 align-self-center">
+                    <p style="font-family: Montserrat;
+                font-size: 18px;
+                line-height: 140.62%; padding: 25px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <div class="pop">
+                        <img src="./img/msg.png" class="img_circle">
+                        <h3>Eiusmod Tempor</h3>
+                        <p>Et harum quidem rerum facilis est et expedita distinctio.
+                            Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                    <div class="pop">
+                        <img src="./img/img.png" class="img_circle">
+                        <h3>Magni Dolores</h3>
+                        <p>Et harum quidem rerum facilis est et expedita distinctio.
+                            Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                    <div class="pop">
+                        <img src="./img/data.png" class="img_circle">
+                        <h3>Dolor Sitema</h3>
+                        <p>Et harum quidem rerum facilis est et expedita distinctio.
+                            Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 align-self-center" style="height: auto;">
+                    <img src="img/undraw_team_spirit_hrr4 1.png" class="img-fluid">
+
+                </div>
+            </div>
+        </div>
+
+        <div style="padding-bottom: 20px;">
+            <br>
+        </div>
+
+        <div class="container" id="our_services">
+            <div class="row row-header">
+                <div class="col-12 col-sm-12">
+                    <h1 class="text-center">Services</h1>
+                    <div class="d-flex justify-content-center">
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor <br> incididunt ut nostrud exercitation ullamco
+                            laboris nisi ut <br> aliquip ex ea commodo consequat</p>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 align-self-center">
+
+                    <div class="pop">
+                        <div class="card abc">
+                            <div class="card-body"><img src="./img/fingerprint.png" class="img_circle">
+                                <h3>Eiusmod Tempor</h3>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio.
+                                    Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop">
+                        <div class="card abc">
+                            <div class="card-body"><img src="./img/img.png" class="img_circle">
+                                <h3>Magni Dolores</h3>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio.
+                                    Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop">
+                        <div class="card abc">
+                            <div class="card-body"><img src="./img/data.png" class="img_circle">
+                                <h3>Dolor Sitema</h3>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio.
+                                    Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 align-self-center">
+
+                    <div class="pop">
+                        <div class="card abc">
+                            <div class="card-body"><img src="./img/chart.png" class="img_circle">
+                                <h3>Eiusmod Tempor</h3>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio.
+                                    Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop">
+                        <div class="card abc">
+                            <div class="card-body"><img src="./img/msg.png" class="img_circle">
+                                <h3>Magni Dolores</h3>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio.
+                                    Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop">
+                        <div class="card abc">
+                            <div class="card-body"><img src="./img/phone.png" class="img_circle">
+                                <h3>Dolor Sitema</h3>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio.
+                                    Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="jumbotron">
+
+
+                <h1>
+                    <p class="text-center">Testimonials</p>
+                </h1>
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-md-4">
+                                    <div class="card ">
+                                        <img class="img-fluid" src="./img/stefan-stefancik-QXevDflbl8A-unsplash.jpg">
+                                        <div class="card-test">
+                                            <h5 class="card-title">Maridel A</h5>
+                                            <p class="card-text">BotHash Helped me a lot by notifying me and informing
+                                                me
+                                                about
+                                                my
+                                                stocks
+                                                and by
+                                                guiding me.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid"
+                                            src="./img/jonathan-cosens-photography-v-YiCIbDjOQ-unsplash.jpg">
+                                        <div class="card-test">
+                                            <h5 class="card-title">Maridel V</h5>
+                                            <p class="card-text">BotHash Helped me a lot by notifying me and informing
+                                                me
+                                                about
+                                                my
+                                                stocks
+                                                and by
+                                                guiding me.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="./img/valerie-elash-JQDflNNnrEE-unsplash.jpg">
+                                        <div class="card-test">
+                                            <h5 class="card-title">Maridel D</h5>
+                                            <p class="card-text">BotHash Helped me a lot by notifying me and informing
+                                                me
+                                                about
+                                                my
+                                                stocks
+                                                and by
+                                                guiding me.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="./img/stephan-valentin-knaz_x_QNHs-unsplash.jpg">
+                                        <div class="card-test">
+                                            <h5 class="card-title">Maridel W</h5>
+                                            <p class="card-text">BotHash Helped me a lot by notifying me and informing
+                                                me
+                                                about
+                                                my
+                                                stocks
+                                                and by
+                                                guiding me.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="img-fluid"
+                                            src="./img/alexander-krivitskiy-RgoJtqRDuGA-unsplash.jpg">
+                                        <div class="card-test">
+                                            <h5 class="card-title">Maridel T</h5>
+                                            <p class="card-text">BotHash Helped me a lot by notifying me and informing
+                                                me
+                                                about
+                                                my
+                                                stocks
+                                                and by
+                                                guiding me.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container price" id="pricing">
+
+            <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <h1 class="display-4">Pricing</h1>
+                <p class="lead">Quickly build an effective pricing table for your potential customers with this
+                    Bootstrap
+                    example.
+                    It’s built with default Bootstrap components and utilities with little customization.</p>
+            </div>
+
+            <div class="container pricing">
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Free for 7days</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for
+                                free</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Single Account</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Multiple Devices</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+
+            <h1>
+                <p class="text-center">Ready to take an Free Trial?</p>
+            </h1>
+            <br>
+            <h4>
+                <p class="text-center col-8 offset-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna <br>
+                    Lorem ipsum dolor sit amet,</p>
+            </h4>
+            <br>
+            <div class="container sign_up">
+                <div class="card">
+                    <div class="card-body ">
+                        <h4 style="padding-left: 55px; padding-top: 40px;">Sign up for an free
+                            account</h4>
+                        <form>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="formGroupExampleInput"></label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput"
+                                        placeholder="Enter Email">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="inputPassword5"></label>
+                                <input type="password" id="inputPassword5" class="form-control"
+                                    placeholder="Enter Password" aria-describedby="passwordHelpBlock">
+                                <small id="passwordHelpBlock" class="form-text text-muted">
+                                    Your password must be 8-20 characters long, contain letters and numbers, and must
+                                    not
+                                    contain spaces, special characters, or emoji.
+                                </small>
+                            </div>
+                            <br>
+                            <button type="button" class="btn btn-primary">Register</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about_us">About Us</a></li>
+                        <li><a href="#our_services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Navi Mumbai<br>
+                        India<br>
+                        <i class="fa fa-phone fa-lg"></i> : +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg"></i> : +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg"></i> : <a href="mailto:confusion@food.net">bothash@tech.net</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                                class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2020 BotHash</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js js/main.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

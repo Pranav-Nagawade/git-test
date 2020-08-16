@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Pranav-Nagawade/Full-Stack-Web-Development-with-React-Specialization#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2"
   }
 }
